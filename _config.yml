@@ -69,8 +69,8 @@ email: js2723@ic.ac.uk
 github_username: jacobyokehongsi # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: jacobyhsi88 # your Twitter handle
-linkedin_username: yang-song-machine-learning # your LinkedIn user name
-scholar_userid: o_J2CroAAAAJ # your Google Scholar ID
+linkedin_username: jacob-yoke-hong-si # your LinkedIn user name
+scholar_userid: -SJHaFcAAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -90,8 +90,8 @@ contact_note: >
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics: UA-69768980-1 # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
-panelbear_analytics: 2L2SaElaomp # panelbear analytics site ID (format: XXXXXXXXX)
+google_analytics: # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
+panelbear_analytics: # panelbear analytics site ID (format: XXXXXXXXX)
 
 google_site_verification:  # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
@@ -110,7 +110,7 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: ysong # put your disqus shortname
+disqus_shortname: jacobyhsi # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -175,7 +175,7 @@ plugins:
   - jekyll-imagemagick
   - jekyll-minifier
   - jekyll-paginate-v2
-  - jekyll-scholar
+  - jekyll/scholar
   - jekyll-sitemap
   - jekyll-target-blank
   - jekyll-twitter-plugin
@@ -221,8 +221,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Song
-  first_name: [Yang]
+  last_name: Si
+  first_name: [Jacob]
 
   style: apa
   locale: en

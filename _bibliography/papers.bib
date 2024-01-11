@@ -2,7 +2,7 @@
 ---
 @inproceedings{si2023interpretabnet,
   title={InterpreTabNet: Enhancing Interpretability of Tabular Data Using Deep Generative Models and Large Language Models},
-  author={Si, Jacob Yoke Hong and Cooper*, Michael and Kao, Jonathan and Cheng*, Wendy Yusi and Krishnan, Rahul},
+  author={Si, Jacob Yoke Hong and Cooper\textsuperscript{*}, Michael and Kao, Jonathan and Cheng*, Wendy Yusi and Krishnan, Rahul},
   booktitle={NeurIPS 2023 Second Table Representation Learning Workshop},
   abstract={Tabular data are omnipresent in various sectors of industries. Neural networks for tabular data such as TabNet have been proposed to make predictions while leveraging the attention mechanism for interpretability. We find that the inferred attention masks on high-dimensional data are often dense, hindering interpretability. To remedy this, we propose the InterpreTabNet, a variant of the TabNet model that models the attention mechanism as a latent variable sampled from a Gumbel-Softmax distribution. This enables us to regularize the model to learn distinct concepts in the attention masks via a KL Divergence regularizer. It prevents overlapping feature selection which maximizes the model's efficacy and improves interpretability. To automate the interpretation of the features from our model, we employ GPT-4 and use prompt engineering to map from the learned feature mask onto natural language text describing the learned signal. Through comprehensive experiments on real-world datasets, we demonstrate that our InterpreTabNet Model outperforms previous methods for learning from tabular data while attaining competitive accuracy and interpretability.},
   year={2023},

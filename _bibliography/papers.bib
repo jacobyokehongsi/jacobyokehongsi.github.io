@@ -4,7 +4,7 @@
   title={InterpreTabNet: Enhancing Interpretability of Tabular Data Using Deep Generative Models and Large Language Models},
   author={Si, Jacob Yoke Hong and Cooper, Michael and Cheng, Wendy Yusi and Krishnan, Rahul},
   booktitle={NeurIPS 2023 Second Table Representation Learning Workshop},
-  abstract={Tabular data are omnipresent in various sectors of industries. Neural networks for tabular data such as TabNet have been proposed to make predictions while leveraging the attention mechanism for interpretability. We find that the inferred attention masks on high-dimensional data are often dense, hindering interpretability. To remedy this, we propose the InterpreTabNet, a variant of the TabNet model that models the attention mechanism as a latent variable sampled from a Gumbel-Softmax distribution. This enables us to regularize the model to learn distinct concepts in the attention masks via a KL Divergence regularizer. It prevents overlapping feature selection which maximizes the model's efficacy and improves interpretability. To automate the interpretation of the features from our model, we employ GPT-4 and use prompt engineering to map from the learned feature mask onto natural language text describing the learned signal. Through comprehensive experiments on real-world datasets, we demonstrate that our InterpreTabNet Model outperforms previous methods for learning from tabular data while attaining competitive accuracy and interpretability.}
+  abstract={Tabular data are omnipresent in various sectors of industries. Neural networks for tabular data such as TabNet have been proposed to make predictions while leveraging the attention mechanism for interpretability. We find that the inferred attention masks on high-dimensional data are often dense, hindering interpretability. To remedy this, we propose the InterpreTabNet, a variant of the TabNet model that models the attention mechanism as a latent variable sampled from a Gumbel-Softmax distribution. This enables us to regularize the model to learn distinct concepts in the attention masks via a KL Divergence regularizer. It prevents overlapping feature selection which maximizes the model's efficacy and improves interpretability. To automate the interpretation of the features from our model, we employ GPT-4 and use prompt engineering to map from the learned feature mask onto natural language text describing the learned signal. Through comprehensive experiments on real-world datasets, we demonstrate that our InterpreTabNet Model outperforms previous methods for learning from tabular data while attaining competitive accuracy and interpretability.},
   year={2023},
   pdf={https://openreview.net/pdf?id=kzR5Cj5blw},
   selected={true}
@@ -18,53 +18,5 @@
   year={2022},
   publisher={CRC Press},
   pdf={https://tellingstorieswithdata.com/inputs/pdfs/paper-4-2022-jacob_yoke_hong_si.pdf},
-  selected={true}
-}
-
-@article{song2023consistency2,
-  title={Improved Techniques for Training Consistency Models},
-  author={Yang Song and Prafulla Dhariwal},
-  journal={arXiv:2310.14189},
-  abbr={arXiv},
-  abstract={Consistency models are a nascent family of generative models that can sample high quality data in one step without the need for adversarial training. Current consistency models achieve optimal sample quality by distilling from pre-trained diffusion models and employing learned metrics such as LPIPS. However, distillation limits the quality of consistency models to that of the pre-trained diffusion model, and LPIPS causes undesirable bias in evaluation. To tackle these challenges, we present improved techniques for consistency training, where consistency models learn directly from data without distillation. We delve into the theory behind consistency training and identify a previously overlooked flaw, which we address by eliminating Exponential Moving Average from the teacher consistency model. To replace learned metrics like LPIPS, we adopt Pseudo-Huber losses from robust statistics. Additionally, we introduce a lognormal noise schedule for the consistency training objective, and propose to double total discretization steps every set number of training iterations. Combined with better hyperparameter tuning, these modifications enable consistency models to achieve FID scores of 2.51 and 3.25 on CIFAR-10 and ImageNet 64×64 respectively in a single sampling step. These scores mark a 3.5× and 4× improvement compared to prior consistency training approaches. Through two-step sampling, we further reduce FID scores to 2.24 and 2.77 on these two datasets, surpassing those obtained via distillation in both one-step and two-step settings, while narrowing the gap between consistency models and other state-of-the-art generative models.},
-  pdf={https://arxiv.org/abs/2310.14189},
-  year={2023},
-  selected={true}
-}
-
-
-@inproceedings{song2023consistency,
-  title={Consistency Models},
-  author={Yang Song and Prafulla Dhariwal and Mark Chen and Ilya Sutskever},
-  booktitle={the 40th International Conference on Machine Learning, 2023.},
-  abbr={ICML},
-  abstract={Diffusion models have made significant breakthroughs in image, audio, and video generation, but they depend on an iterative generation process that causes slow sampling speed and caps their potential for real-time applications. To overcome this limitation, we propose consistency models, a new family of generative models that achieve high sample quality without adversarial training. They support fast one-step generation by design, while still allowing for few-step sampling to trade compute for sample quality. They also support zero-shot data editing, like image inpainting, colorization, and super-resolution, without requiring explicit training on these tasks. Consistency models can be trained either as a way to distill pre-trained diffusion models, or as standalone generative models. Through extensive experiments, we demonstrate that they outperform existing distillation techniques for diffusion models in one- and few-step generation. For example, we achieve the new state-of-the-art FID of 3.55 on CIFAR-10 and 6.20 on ImageNet 64x64 for one-step generation. When trained as standalone generative models, consistency models also outperform single-step, non-adversarial generative models on standard benchmarks like CIFAR-10, ImageNet 64x64 and LSUN 256x256.},
-  pdf={https://arxiv.org/abs/2303.01469},
-  code={https://github.com/openai/consistency_models},
-  media={https://techcrunch.com/2023/04/12/openai-looks-beyond-diffusion-with-consistency-based-image-generator/},
-  year={2023},
-  poster={ICML2023/consistency.pdf},
-  selected={true}
-}
-
-@article{yang2022diffusion,
-  title={Diffusion Models: A Comprehensive Survey of Methods and Applications},
-  author={Yang, Ling and Zhang, Zhilong and Song, Yang and Hong, Shenda and Xu, Runsheng and Zhao, Yue and Zhang, Wentao and Cui, Bin and Yang, Ming-Hsuan},
-  journal={ACM Computing Surveys},
-  abbr={ACM},
-  abstract={Diffusion models have emerged as a powerful new family of deep generative models with record-breaking performance in many applications, including image synthesis, video generation, and molecule design. In this survey, we provide an overview of the rapidly expanding body of work on diffusion models, categorizing the research into three key areas: efficient sampling, improved likelihood estimation, and handling data with special structures. We also discuss the potential for combining diffusion models with other generative models for enhanced results. We further review the wide-ranging applications of diffusion models in fields spanning from computer vision, natural language processing, temporal data modeling, to interdisciplinary applications in other scientific disciplines. This survey aims to provide a contextualized, in-depth look at the state of diffusion models, identifying the key areas of focus and pointing to potential areas for further exploration.},
-  code={https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy},
-  pdf={https://arxiv.org/abs/2209.00796},
-  year={2022}
-}
-
-@phdthesis{song2022learning,
-  title={Learning to Generate Data by Estimating Gradients of the Data Distribution},
-  author={Yang Song},
-  year={2022},
-  school={Stanford University},
-  abbr={Thesis},
-  abstract={Generating realistic data with complex patterns, such as images, audio, or molecular structures, often relies on expressive probabilistic models to represent and estimate high- dimensional data distributions. However, even with the power of deep neural networks, building powerful probabilistic models is non-trivial. One major challenge is the need to normalize probability distributions; that is, to ensure the total probability equals one. This necessitates summing over all possible model outputs, which quickly becomes impractical in high-dimensional spaces. In this dissertation, I propose to address this difficulty by working with data distributions through their score functions. These functions, defined as gradients of log data densities, capture information about the corresponding data distributions without requiring normalization, hence can be modeled with highly flexible deep neural networks. This dissertation is organized into three parts. In Part I, I show how to estimate the score function from a finite dataset with expressive deep neural networks and efficient statistical methods. In Part II, I discuss several ways to generate new data samples from models of score functions, building upon ideas from homotopy methods, Markov chain Monte Carlo, diffusion processes, and differential equations. The resulting score-based generative models (also known as diffusion models) achieved record-breaking generation performance for numerous data modalities, challenging the long-standing dominance of generative adversarial networks on many tasks. Importantly, the sampling procedure of score-based generative models can be flexibly controlled for solving inverse problems, demonstrated by their superior performance on multiple tasks in medical image reconstruction. In Part III, I show how to evaluate probability values accurately with models of score functions. Taken together, score-based generative models provide a flexible, powerful and versatile solution for data generation in machine learning and many other disciplines of science and engineering.},
-  pdf={https://searchworks.stanford.edu/view/14310542},
   selected={true}
 }

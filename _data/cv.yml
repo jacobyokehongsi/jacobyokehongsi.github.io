@@ -17,48 +17,27 @@
       description:
         - Advised by <a href="https://www.cs.toronto.edu/~rahulgk/index.html">Rahul Krishnan</a>.
 
-# - title: Experience
-#   type: time_table
-#   contents:
-#     - title: Research Intern
-#       institution: Google Brain, Google LLC, Mountain View, California
-#       year: Summer 2020
-#       description:
-#         - Hosted by Ben Poole, Jascha Sohl-Dickstein, Diederik P. Kingma, and Abhishek Kumar.
-#     - title: Engineering Intern
-#       institution: Advanced Technologies Group, Uber, Toronto, Canada
-#       year: Summer 2018
-#       description:
-#         - Hosted by Raquel Urtasun, Chief Scientist of Uber.
+- title: Experience
+  type: time_table
+  contents:
+    - title: Researcher
+      institution: Henry Samueli School of Engineering and Applied Science, Neural Engineering and Computation Lab
+      year: 2023 - Present
+      description:
+        - Hosted by Jonathan Kao.
 
-#     - title: Research Intern
-#       institution: Microsoft Research, Cambridge, UK.
-#       year: Summer 2017
-#       description:
-#         - Hosted by Nate Kushman.
+    - title: Researcher
+      institution: Vector Institute, Machine Learning and Computational Healthcare Lab 
+      year: 2022 - Present
+      description:
+        - Hosted by Rahul Krishnan.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2023
+    - year: 2020, 2021, 2022
       items:
-        - Meritorious Winner of the 2023 WAIC Yunfan Award.
-    - year: 2021
-      items: 
-        - <a href="https://iclr-conf.medium.com/announcing-iclr-2021-outstanding-paper-awards-9ae0514734ab">ICLR Outstanding Paper Award</a>
-        - NeurIPS Outstanding Reviewer Award
-        - <a href="https://mp.weixin.qq.com/s/FQqzM3MXFlGGo4ct5kxERg">WAIC Rising Star Award</a>
-    - year: 2020
-      items: 
-        - <a href="https://www.apple.com/education/higher-education/scholars/">Apple PhD Fellowship in AI/ML</a>
-        - <a href="https://www.jpmorgan.com/global/technology/ai/awards/phd-fellowship-award-recipients-2020">J.P. Morgan PhD Fellowship</a>
-        - <a href="https://research.facebook.com/blog/2020/01/announcing-the-recipients-of-the-2020-facebook-fellowship-awards/">Facebook Fellowship, Finalist</a>
-    - year: 2016
-      items:
-        - Stanford School of Engineering Fellowship
-        - Excellent Graduate, Tsinghua University
-        - Qualcomm Fellowship
-        - Microsoft-IEEE Fellowship
+        - University of Toronto Howard Ferguson Scholarship
 
 # - title: Teaching
 #   type: time_table

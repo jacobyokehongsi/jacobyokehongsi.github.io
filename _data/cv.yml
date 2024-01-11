@@ -2,36 +2,40 @@
   type: time_table
   contents:
     - title: Ph.D. in Computer Science
-      institution: Stanford University, California, United States
-      year: 2022
+      institution: Imperial College London
+      year: 2024
       description:
-        - Advised by <a href="https://cs.stanford.edu/~ermon">Stefano Ermon</a>.
-    - title: B.S. in Mathematics and Physics
-      institution: Tsinghua University, Beijing, China
+        - Advised by <a href="http://yingzhenli.net/home/en/">Yingzhen Li</a>.
+    - title: MEng in AI and ML
+      institution: University of California, Los Angeles
+      year: 2023
+      description:
+        - Advised by <a href="https://seas.ucla.edu/~kao/people_dir/jonathan_kao.html">Jonathan Kao</a>.
+    - title: HBSc in Computer Science, Statistics, and Economics
+      institution: University of Toronto
       year: 2016
       description:
-        - <em> Magna cum laude.</em>
-        - Academic Talent Program 2012.
+        - Advised by <a href="https://www.cs.toronto.edu/~rahulgk/index.html">Rahul Krishnan</a>.
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Research Intern
-      institution: Google Brain, Google LLC, Mountain View, California
-      year: Summer 2020
-      description:
-        - Hosted by Ben Poole, Jascha Sohl-Dickstein, Diederik P. Kingma, and Abhishek Kumar.
-    - title: Engineering Intern
-      institution: Advanced Technologies Group, Uber, Toronto, Canada
-      year: Summer 2018
-      description:
-        - Hosted by Raquel Urtasun, Chief Scientist of Uber.
+# - title: Experience
+#   type: time_table
+#   contents:
+#     - title: Research Intern
+#       institution: Google Brain, Google LLC, Mountain View, California
+#       year: Summer 2020
+#       description:
+#         - Hosted by Ben Poole, Jascha Sohl-Dickstein, Diederik P. Kingma, and Abhishek Kumar.
+#     - title: Engineering Intern
+#       institution: Advanced Technologies Group, Uber, Toronto, Canada
+#       year: Summer 2018
+#       description:
+#         - Hosted by Raquel Urtasun, Chief Scientist of Uber.
 
-    - title: Research Intern
-      institution: Microsoft Research, Cambridge, UK.
-      year: Summer 2017
-      description:
-        - Hosted by Nate Kushman.
+#     - title: Research Intern
+#       institution: Microsoft Research, Cambridge, UK.
+#       year: Summer 2017
+#       description:
+#         - Hosted by Nate Kushman.
 
 - title: Honors and Awards
   type: time_table
@@ -56,28 +60,28 @@
         - Qualcomm Fellowship
         - Microsoft-IEEE Fellowship
 
-- title: Teaching
-  type: time_table
-  contents:
-    - title: Co-Instructor
-      institution: >
-        <a href="https://deepgenerativemodels.github.io/">CS236: Deep Generative Models</a>, Stanford University
-      year: Fall 2021
+# - title: Teaching
+#   type: time_table
+#   contents:
+#     - title: Co-Instructor
+#       institution: >
+#         <a href="https://deepgenerativemodels.github.io/">CS236: Deep Generative Models</a>, Stanford University
+#       year: Fall 2021
       
-    - title: Teaching Assistant
-      institution: >
-        <a href="https://deepgenerativemodels.github.io/2019/">CS236: Deep Generative Models</a>, Stanford University
-      year: Fall 2019
+#     - title: Teaching Assistant
+#       institution: >
+#         <a href="https://deepgenerativemodels.github.io/2019/">CS236: Deep Generative Models</a>, Stanford University
+#       year: Fall 2019
       
-    - title: Head Teaching Assistant
-      institution: >
-        <a href="https://deepgenerativemodels.github.io/2018/">CS236: Deep Generative Models</a>, Stanford University
-      year: Fall 2018
+#     - title: Head Teaching Assistant
+#       institution: >
+#         <a href="https://deepgenerativemodels.github.io/2018/">CS236: Deep Generative Models</a>, Stanford University
+#       year: Fall 2018
 
-- title: Professional Services
-  type: list
-  contents:    
-    - <strong>Organizer:</strong> <a href="https://score-based-methods-workshop.github.io/">NeurIPS 2022 Workshop on Score-Based Methods</a>.
-    - <strong>Area Chair:</strong> CVPR (2023), NeurIPS (2023).
-    - <strong>Journal Reviewer:</strong> JRSS-B, JMLR, TMLR, IEEE TPAMI, ACM TKDD, Medical Image Analysis, IEEE TIFS, IEEE TNNLS, IEEE TDSC, IET CV.
-    - <strong>Conference Reviewer/ Program Committee:</strong> NeurIPS (2019-2022, 2016), ICML (2019-2023), ICLR (2019-2023), AISTATS (2020-2022), UAI (2020-2023), AAAI (2020).
+# - title: Professional Services
+#   type: list
+#   contents:    
+#     - <strong>Organizer:</strong> <a href="https://score-based-methods-workshop.github.io/">NeurIPS 2022 Workshop on Score-Based Methods</a>.
+#     - <strong>Area Chair:</strong> CVPR (2023), NeurIPS (2023).
+#     - <strong>Journal Reviewer:</strong> JRSS-B, JMLR, TMLR, IEEE TPAMI, ACM TKDD, Medical Image Analysis, IEEE TIFS, IEEE TNNLS, IEEE TDSC, IET CV.
+#     - <strong>Conference Reviewer/ Program Committee:</strong> NeurIPS (2019-2022, 2016), ICML (2019-2023), ICLR (2019-2023), AISTATS (2020-2022), UAI (2020-2023), AAAI (2020).

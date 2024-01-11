@@ -3,11 +3,8 @@ layout: about
 title: about
 permalink: /
 subtitle: |+
-  <strong>Researcher</strong> at <a href="https://openai.com/">OpenAI</a>, Strategic Explorations team. <br><br>
-  (Incoming) <strong>Assistant Professor</strong>, <br>
-  Electrical Engineering and Computing + Mathematical Sciences, <br>
-  <a href="https://www.caltech.edu">California Institute of Technology (Caltech)</a>.
-
+  <strong>PhD Student</strong> at <a href="https://www.imperial.ac.uk/">Imperial College London</a>
+  
 profile:
   image: profile.jpg
   image_cicular: false # crops the image to make it circular
@@ -18,4 +15,4 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-**Previously:** I received my Ph.D. in Computer Science from [Stanford University](https://www.stanford.edu), advised by [Stefano Ermon](https://cs.stanford.edu/~ermon). I was a research intern at [Google Brain](https://research.google/teams/brain/), Uber ATG, and [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/). I obtained my Bachelor's degree in Mathematics and Physics from [Tsinghua University](https://www.tsinghua.edu.cn/), where I worked with [Jun Zhu](http://ml.cs.tsinghua.edu.cn/~jun/index.shtml), [Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/), and [Richard Zemel](http://www.cs.toronto.edu/~zemel/inquiry/home.php).
+I am a PhD candidate at [Imperial College London](https://www.imperial.ac.uk/computing/) supervised by [Prof. Yingzhen Li](http://yingzhenli.net/home/en/) specializing in Generative AI. Before joining Imperial, I earned a Master of Engineering degree specializing in AI and ML from the [University of California, Los Angeles](https://www.ucla.edu/) and an Honours Bachelor of Science in Computer Science, Statistics and Economics at the [University of Toronto](https://www.utoronto.ca/). I am also fortunate to be advised by [Prof. Rahul Krishnan](http://www.cs.toronto.edu/~rahulgk/index.html) at the [Vector Institute](https://vectorinstitute.ai/) and [Prof. Jonathan Kao](http://seas.ucla.edu/~kao/) at UCLA where I research novel machine learning architectures through deep generative modeling.

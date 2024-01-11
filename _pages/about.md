@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
 subtitle: |+
   <strong>PhD Student</strong> at <a href="https://www.imperial.ac.uk/">Imperial College London</a>

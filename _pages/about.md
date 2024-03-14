@@ -17,6 +17,8 @@ social: true  # includes social icons at the bottom of the page
 
 I am a PhD candidate at [Imperial College London](https://www.imperial.ac.uk/computing/) supervised by [Prof. Yingzhen Li](http://yingzhenli.net/home/en/) specializing in Generative AI. Before joining Imperial, I earned a Master of Engineering degree specializing in AI and ML from the [University of California, Los Angeles](https://www.ucla.edu/) and an Honours Bachelor of Science in Computer Science, Statistics and Economics at the [University of Toronto](https://www.utoronto.ca/). I am also fortunate to be advised by [Prof. Rahul Krishnan](http://www.cs.toronto.edu/~rahulgk/index.html) at the [Vector Institute](https://vectorinstitute.ai/) and [Prof. Jonathan Kao](http://seas.ucla.edu/~kao/) at UCLA where I research novel machine learning architectures through deep generative modeling.
 
+Any master or undergraduate students interested in working on generative models feel free to contact me by email with your interests and CV!
+
 Email:
 
 ‘js2723‘ @ ‘ic.ac.uk‘

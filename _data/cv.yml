@@ -64,12 +64,12 @@
       items:
         - University of Toronto Howard Ferguson Scholarship
         
-# - title: Teaching
-#   type: time_table
-#   contents:
-#     - title: Graduate Teaching Assistant
-#       institution: <a href="https://www.imperial.ac.uk/computing/current-students/courses/40009/">CS4009: Computing Practical 1</a>, Imperial College
-#       year: Winter 2024
+- title: Teaching
+  type: time_table
+  contents:
+    - title: Graduate Teaching Assistant
+      institution: <a href="https://www.imperial.ac.uk/computing/current-students/courses/40009/">CS4009: Computing Practical 1</a>, Imperial College
+      year: Winter 2024
 
 - title: Professional Services
   type: list

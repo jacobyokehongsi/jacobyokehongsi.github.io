@@ -21,41 +21,22 @@
   type: time_table
   contents:
     - title: Researcher
-      institution: Henry Samueli School of Engineering and Applied Science, Neural Engineering and Computation Lab
-      year: 2023 - Present
-      description:
-        - Hosted by Jonathan Kao.
-
-    - title: Researcher
       institution: Vector Institute, Machine Learning and Computational Healthcare Lab 
       year: 2022 - Present
       description:
         - Hosted by Rahul Krishnan.
+        
+    - title: Researcher
+      institution: Henry Samueli School of Engineering and Applied Science, Neural Engineering and Computation Lab
+      year: 2023 - 2024
+      description:
+        - Hosted by Jonathan Kao.
 
     - title: Researcher
       institution: Harvard Medical School, Massachusetts General Hospital and UCLA
       year: 2023
       description:
         - Hosted by <a href="https://researchers.mgh.harvard.edu/profile/14171938/Oleg-Pianykh">Oleg Pianykh</a>.
-
-# - title: Experience
-#   type: time_table
-#   contents:
-#     - title: Researcher
-#         institution: Vector Institute, Machine Learning and Computational Healthcare Lab 
-#         year: 2022 - Present
-#         description:
-#           - Hosted by Rahul Krishnan.
-#     - title: Researcher
-#       institution: Henry Samueli School of Engineering and Applied Science, Neural Engineering and Computation Lab
-#       year: 2023 - 2024
-#       description:
-#         - Hosted by Jonathan Kao.
-    # - title: Researcher
-    #   institution: Harvard Medical School, Massachusetts General Hospital and UCLA
-    #   year: June 2023 - Sept 2023
-    #   description:
-    #     - Hosted by Oleg Pianykh.
 
 - title: Honors and Awards
   type: time_table
@@ -76,27 +57,4 @@
   type: list
   contents:
     - <strong>Conference Reviewer:</strong> NeurIPS (2024)
-
-# - <strong>Organizer:</strong> <a href="https://score-based-methods-workshop.github.io/">NeurIPS 2022 Workshop on Score-Based Methods</a>.
-# - <strong>Area Chair:</strong> CVPR (2023), NeurIPS (2023).
-# - <strong>Journal Reviewer:</strong> JRSS-B, JMLR, TMLR, IEEE TPAMI, ACM TKDD, Medical Image Analysis, IEEE TIFS, IEEE TNNLS, IEEE TDSC, IET CV.
-
-# - title: Teaching
-#   type: time_table
-#   contents:
-#     - title: Co-Instructor
-#       institution: >
-#         <a href="https://deepgenerativemodels.github.io/">CS236: Deep Generative Models</a>, Stanford University
-#       year: Fall 2021
-      
-#     - title: Teaching Assistant
-#       institution: >
-#         <a href="https://deepgenerativemodels.github.io/2019/">CS236: Deep Generative Models</a>, Stanford University
-#       year: Fall 2019
-      
-#     - title: Head Teaching Assistant
-#       institution: >
-#         <a href="https://deepgenerativemodels.github.io/2018/">CS236: Deep Generative Models</a>, Stanford University
-#       year: Fall 2018
-
 

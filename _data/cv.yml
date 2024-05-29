@@ -21,15 +21,30 @@
   type: time_table
   contents:
     - title: Researcher
-        institution: Vector Institute, Machine Learning and Computational Healthcare Lab 
-        year: 2022 - Present
-        description:
-          - Hosted by Rahul Krishnan.
-    - title: Researcher
       institution: Henry Samueli School of Engineering and Applied Science, Neural Engineering and Computation Lab
-      year: 2023 - 2024
+      year: 2023 - Present
       description:
         - Hosted by Jonathan Kao.
+
+    - title: Researcher
+      institution: Vector Institute, Machine Learning and Computational Healthcare Lab 
+      year: 2022 - Present
+      description:
+        - Hosted by Rahul Krishnan.
+
+# - title: Experience
+#   type: time_table
+#   contents:
+#     - title: Researcher
+#         institution: Vector Institute, Machine Learning and Computational Healthcare Lab 
+#         year: 2022 - Present
+#         description:
+#           - Hosted by Rahul Krishnan.
+#     - title: Researcher
+#       institution: Henry Samueli School of Engineering and Applied Science, Neural Engineering and Computation Lab
+#       year: 2023 - 2024
+#       description:
+#         - Hosted by Jonathan Kao.
     # - title: Researcher
     #   institution: Harvard Medical School, Massachusetts General Hospital and UCLA
     #   year: June 2023 - Sept 2023

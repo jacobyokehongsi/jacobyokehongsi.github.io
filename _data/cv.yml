@@ -30,11 +30,11 @@
       year: 2023 - 2024
       description:
         - Hosted by Jonathan Kao.
-    - title: Researcher
-      institution: Harvard Medical School, Massachusetts General Hospital and UCLA
-      year: June 2023 - Sept 2023
-      description:
-        - Hosted by Oleg Pianykh.
+    # - title: Researcher
+    #   institution: Harvard Medical School, Massachusetts General Hospital and UCLA
+    #   year: June 2023 - Sept 2023
+    #   description:
+    #     - Hosted by Oleg Pianykh.
 
 - title: Honors and Awards
   type: time_table
@@ -43,12 +43,12 @@
       items:
         - University of Toronto Howard Ferguson Scholarship
         
-- title: Teaching
-  type: time_table
-  contents:
-    - title: Graduate Teaching Assistant
-      institution: <a href="https://www.imperial.ac.uk/computing/current-students/courses/40009/">CS4009: Computing Practical 1</a>, Imperial College
-      year: Winter 2024
+# - title: Teaching
+#   type: time_table
+#   contents:
+#     - title: Graduate Teaching Assistant
+#       institution: <a href="https://www.imperial.ac.uk/computing/current-students/courses/40009/">CS4009: Computing Practical 1</a>, Imperial College
+#       year: Winter 2024
 
 - title: Professional Services
   type: list

@@ -36,13 +36,19 @@
       description:
         - Hosted by <a href="https://researchers.mgh.harvard.edu/profile/14171938/Oleg-Pianykh">Oleg Pianykh</a>.
 
-
 - title: Honors and Awards
   type: time_table
   contents:
     - year: 2020, 2021, 2022
       items:
         - University of Toronto Howard Ferguson Scholarship
+
+- title: Teaching
+  type: time_table
+  contents:
+    - title: Graduate Teaching Assistant
+        institution: Imperial College London
+        year: 2024 - Present
 
 - title: Professional Services
   type: list

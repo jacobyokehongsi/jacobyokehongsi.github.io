@@ -67,9 +67,10 @@
 - title: Teaching
   type: time_table
   contents:
-    - title: Graduate Teaching Assistant
-      institution: <a href="https://www.imperial.ac.uk/computing/current-students/courses/40009/">CS4009: Computing Practical 1</a>, Imperial College
-      year: Winter 2024
+    - title: Co-Instructor
+      institution: >
+        <a href="https://deepgenerativemodels.github.io/">CS236: Deep Generative Models</a>, Stanford University
+      year: Fall 2021
 
 - title: Professional Services
   type: list

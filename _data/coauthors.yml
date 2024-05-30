@@ -10,6 +10,10 @@
   - firstname: ["Michael"]
     url: https://michaeljohncooper.com/
 
+"Cooper*":
+  - firstname: ["Michael"]
+    url: https://michaeljohncooper.com/
+
 "Ou":
   - firstname: ["Zijing"]
     url: https://j-zin.github.io/

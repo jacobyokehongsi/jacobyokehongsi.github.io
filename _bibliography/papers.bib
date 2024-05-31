@@ -13,13 +13,13 @@
 }
 
 @inproceedings{si2024interpretabnet,
-  title={InterpreTabNet: Distilling Salient Features for Tabular Data Interpretation},
+  title={InterpreTabNet: Distilling Predictive Signals from Tabular Data by Salient Feature Interpretation},
   author={Si, Jacob and Cheng, Wendy Yusi and Cooper, Michael and Krishnan, Rahul},
   booktitle={the 41st International Conference on Machine Learning, 2024.},
-  abstract={Tabular data are omnipresent in various sectors of industries. Neural networks for tabular data such as TabNet have been proposed to make predictions while leveraging the attention mechanism for interpretability. We find that the inferred attention masks on high-dimensional data are often dense, hindering interpretability. To remedy this, we propose the InterpreTabNet, a variant of the TabNet model that models the attention mechanism as a latent variable sampled from a Gumbel-Softmax distribution. This enables us to regularize the model to learn distinct concepts in the attention masks via a KL Divergence regularizer. It prevents overlapping feature selection by promoting sparsity which maximizes the model's efficacy and improves interpretability to determine the important features when predicting the outcome. To automate the interpretation of feature interdependencies from our model, we employ GPT-4 and use prompt engineering to map from the learned feature mask onto natural language text describing the learned signal. Through comprehensive experiments on real-world datasets, we demonstrate that our InterpreTabNet Model outperforms previous methods for interpreting tabular data while attaining competitive accuracy.},
+  abstract={Tabular data are omnipresent in various sectors of industries. Neural networks for tabular data such as TabNet have been proposed to make predictions while leveraging the attention mechanism for interpretability. However, the inferred attention masks are often dense, making it challenging to come up with rationales about the predictive signal. To remedy this, we propose InterpreTabNet, a variant of the TabNet model that models the attention mechanism as a latent variable sampled from a Gumbel-Softmax distribution. This enables us to regularize the model to learn distinct concepts in the attention masks via a KL Divergence regularizer. It prevents overlapping feature selection by promoting sparsity which maximizes the model's efficacy and improves interpretability to determine the important features when predicting the outcome. To assist in the interpretation of feature interdependencies from our model, we employ a large language model (GPT-4) and use prompt engineering to map from the learned feature mask onto natural language text describing the learned signal. Through comprehensive experiments on real-world datasets, we demonstrate that InterpreTabNet outperforms previous methods for interpreting tabular data while attaining competitive accuracy.},
   year={2024},
   abbr={ICML},
-  pdf={InterpreTabNet__ICML_Camera_Ready.pdf},
+  pdf={interpretabnet.pdf},
   code={https://github.com/jacobyokehongsi/InterpreTabNet},
   selected={true}
 }

@@ -105,20 +105,13 @@ blockquote {
       margin: 0;
     }
   }
-  img { /* Add this block */
-    width: 1000px; /* Adjust to desired size */
-    height: auto; /* Maintain aspect ratio */
-  }
 }
 
 @media (min-width: 576px) {
   .profile {
-    width: 300%;
+    width: 30%;
     .address {
       p { display: block; }
-    }
-    img { /* Add this block */
-      width: 1000px; /* Adjust to larger size if needed */
     }
   }
 }

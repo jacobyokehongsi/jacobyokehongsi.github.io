@@ -33,7 +33,7 @@ a, table.table a {
 }
 
 figure, img {
-  max-width: 120vw;
+  max-width: 90vw;
 }
 
 blockquote {
@@ -105,6 +105,10 @@ blockquote {
       margin: 0;
     }
   }
+  img { /* Add this block */
+    width: 1000px; /* Adjust to desired size */
+    height: auto; /* Maintain aspect ratio */
+  }
 }
 
 @media (min-width: 576px) {
@@ -112,6 +116,9 @@ blockquote {
     width: 300%;
     .address {
       p { display: block; }
+    }
+    img { /* Add this block */
+      width: 250px; /* Adjust to larger size if needed */
     }
   }
 }
